@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+
+.fundo{
+  background-blend-mode: overlay;
+  height: 100vh; // vh = altura da tela
+  display: flex;
+  align-items: center; 
+}
+
+.conteudo{
+  font-family: 'Fuzzy Bubbles', cursive;
+  //# 0 - F
+  //rgb - red green blue
+  //rgbA - red green blue alpha
+  margin: 0 24px;
+  padding: 18px;
+  border-radius: 16px;
+}
+
+.frase{
+  font-size: 30px;
+}
